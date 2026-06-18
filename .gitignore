@@ -7,6 +7,9 @@ ENV/
 env/
 .env
 .pytest_cache/
-outputs/
+outputs/*
+!outputs/sample_run/
+!outputs/api_run_20/
+!outputs/golden_run/
 .DS_Store
 data/hotpot_dev_distractor_v1.json
